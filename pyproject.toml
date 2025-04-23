@@ -5,13 +5,14 @@ description = ""
 authors = [
     {name = "Pedro@DESKTOP-5C8D88Q"}
 ]
+package-mode = false
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "streamlit (>=1.44.1,<2.0.0)",
     "pandas (>=2.2.3,<3.0.0)"
 ]
-package-mode = false
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
